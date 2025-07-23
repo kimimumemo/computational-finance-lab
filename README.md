@@ -10,35 +10,18 @@ I've grouped the notebooks into topics like option pricing, simulations, portfol
 ```
 computational-finance-lab/
 ├── code/
-│   ├── options/        # Option pricing models
-│   ├── simulation/     # Monte Carlo and stochastic methods
-│   ├── risk/           # Value at Risk and risk analysis
-│   ├── forecasting/    # Time series forecasting (ARIMA)
-│   └── portfolio/      # Portfolio optimization
-├── data/               # Stock price datasets used in analysis
+│ ├── simulation/ # Monte Carlo and Brownian motion techniques for Options
+│ └── forecasting/ # ARIMA time series prediction (AAPL)
+├── data/ # Stock price datasets used in analysis
 ├── README.md
 └── requirements.txt
 ```
 ---
 
-## What's Inside
+## Related Work
 
-Here’s a quick overview of what each topic includes:
+Some of the code in this repository supports the following research papers:
 
-### Option Pricing
-- Binomial model for American and European call options
-- Monte Carlo simulations with antithetic variates
-- Put option pricing using a mix of Monte Carlo, Binomial CRR, and bBTT methods
-- Brownian motion applied to option pricing
+- [Comparative Analysis of American Put and Call Option Pricing Using Monte Carlo, Binomial CRR, and Basic Bino-Trinomial Methods](https://www.researchgate.net/publication/360937628_ANALISIS_PERBANDINGAN_HARGA_OPSI_PUT_DAN_CALL_TIPE_AMERIKA_TERHADAP_OPSI_SAHAM_MENGGUNAKAN_METODE_MONTE_CARLO_METODE_BINOMIAL_CRR_DAN_METODE_BASIC_BINO-TRINOMIAL)
 
-### Simulation
-- Stochastic simulations, primarily supporting the pricing models
-
-### Risk
-- Value at Risk (VaR) analysis using historical simulation methods
-
-### Forecasting
-- ARIMA time series forecasting on Apple stock price data
-
-### Portfolio
-- Mean-variance portfolio optimization using historical returns
+- [Stock Price Movement Plotting Using N-Step Binomial and Black-Scholes Merton Methods](https://www.researchgate.net/publication/360937253_PLOT_PERGERAKAN_HARGA_SAHAM_MENGGUNAKAN_METODE_BINOMIAL_N_LANGKAH_DAN_METODE_BLACK_SCHOLES_MERTON)
