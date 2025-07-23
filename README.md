@@ -8,17 +8,7 @@ I've grouped the notebooks into topics like option pricing, simulations, portfol
 
 ## Project Structure
 
-computational-finance-lab/
-├── code/
-│   ├── options/        # Option pricing models
-│   ├── simulation/     # Monte Carlo and stochastic methods
-│   ├── risk/           # Value at Risk and risk analysis
-│   ├── forecasting/    # Time series forecasting (ARIMA)
-│   └── portfolio/      # Portfolio optimization
-├── data/               # Stock price datasets used in analysis
-├── README.md
-└── requirements.txt
-
+<pre> ```text computational-finance-lab/ ├── code/ │ ├── options/ # Option pricing models │ ├── simulation/ # Monte Carlo and stochastic methods │ ├── risk/ # Value at Risk and risk analysis │ ├── forecasting/ # Time series forecasting (ARIMA) │ └── portfolio/ # Portfolio optimization ├── data/ # Stock price datasets used in analysis ├── README.md └── requirements.txt ``` </pre>
 ---
 
 ## What's Inside
@@ -42,20 +32,3 @@ Here’s a quick overview of what each topic includes:
 
 ### Portfolio
 - Mean-variance portfolio optimization using historical returns
-
----
-
-## Data
-
-I’ve included historical stock price data for Apple Inc. (`AAPL`) in the `data/` folder:
-- `AAPL-2015–2020.csv`: Long-term historical daily prices
-- `AAPL-Feb15–20.csv`: A short-term window for forecasting exercises
-
----
-
-## How to Run
-
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/kimimumemo/computational-finance-lab.git
-   cd computational-finance-lab
