@@ -7,8 +7,18 @@ I've grouped the notebooks into topics like option pricing, simulations, portfol
 ---
 
 ## Project Structure
-
-<pre> ```text computational-finance-lab/ ├── code/ │ ├── options/ # Option pricing models │ ├── simulation/ # Monte Carlo and stochastic methods │ ├── risk/ # Value at Risk and risk analysis │ ├── forecasting/ # Time series forecasting (ARIMA) │ └── portfolio/ # Portfolio optimization ├── data/ # Stock price datasets used in analysis ├── README.md └── requirements.txt ``` </pre>
+```
+computational-finance-lab/
+├── code/
+│   ├── options/        # Option pricing models
+│   ├── simulation/     # Monte Carlo and stochastic methods
+│   ├── risk/           # Value at Risk and risk analysis
+│   ├── forecasting/    # Time series forecasting (ARIMA)
+│   └── portfolio/      # Portfolio optimization
+├── data/               # Stock price datasets used in analysis
+├── README.md
+└── requirements.txt
+```
 ---
 
 ## What's Inside
